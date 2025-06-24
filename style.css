@@ -1,79 +1,148 @@
 /* Importing Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500;1,700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 header {
-    margin-top: 47px;
-    margin-left: 42px;
+  margin-top: 47px;
+  margin-left: 42px;
 }
 .link-menu {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-    letter-spacing: 0.875px;
-    color: #17233D;
-    margin-right: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.875px;
+  color: #17233d;
+  margin-right: 32px;
 }
 .button-sign-up {
-    background: #6FBF44;
-    border: 1px solid #4CB538 ;
-    border-radius: 6px;
-    width: 124px;
-    height: 51px;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
+  background: #6fbf44;
+  border: 1px solid #4cb538;
+  border-radius: 6px;
+  width: 124px;
+  height: 51px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #ffffff;
 }
 img {
-    width: 100%;
-    height: 100%;
-    max-width: 600px;
-    max-height: 400px;
-    margin-left: 42px;
-    display: inline-block;
-    margin-left: 85px;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 400px;
+  margin-left: 42px;
+  display: inline-block;
+  margin-left: 85px;
 }
-section{
-    display: inline-block;
-     width: 493px;
+section {
+  display: inline-block;
+  width: 493px;
 }
 h1 {
-    font-weight: 700;
-    font-size: 62px;
-    line-height: 48px;
-    letter-spacing: 0.5px;
-    color: #17233D;
-    margin-top: 24px;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  color: #17233d;
+  margin-top: 24px;
 }
 p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 33px;
-    letter-spacing: 0.5px;
-    color: #17233D;
-    margin: 47px,55px;
-   
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  color: #17233d;
+  margin: 47px, 55px;
 }
 .button-learn-more {
-    background: transparent;
-    border: none;
-    border-radius: 6px;
-    width: 124px;
-    height: 51px;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 2px;
-    letter-spacing: 1px;
-    color:#6FBF44 ;
-    margin-top: 24px;
-    cursor: pointer;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  width: 124px;
+  height: 51px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 1px;
+  color: #6fbf44;
+  margin-top: 24px;
+  cursor: pointer;
+}
+/* Tablets (largura entre 601px e 1024px) */
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  section {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+    margin-left: 0;
+    display: block;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 30px 20px;
+  }
+}
+
+/* Smartphones (largura até 600px) */
+@media screen and (max-width: 600px) {
+  header {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .link-menu {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+    display: block;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 15px;
+    text-align: center;
+  }
+
+  .button-sign-up,
+  .button-learn-more {
+    width: 100%;
+    margin: 20px 0;
+  }
 }
