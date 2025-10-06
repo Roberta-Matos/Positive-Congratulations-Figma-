@@ -7,8 +7,11 @@
   font-family: "Poppins", sans-serif;
 }
 header {
-  margin-top: 47px;
-  margin-left: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .link-menu {
   font-weight: 400;
@@ -18,6 +21,7 @@ header {
   letter-spacing: 0.875px;
   color: #17233d;
   margin-right: 32px;
+  display: flex;
 }
 .button-sign-up {
   background: #6fbf44;
@@ -44,14 +48,14 @@ img {
 section {
   display: inline-block;
   width: 493px;
+  margin-left: 85px;
 }
 h1 {
   font-weight: 700;
   font-size: 62px;
-  line-height: 48px;
-  letter-spacing: 0.5px;
+  line-height: 82px;
+  letter-spacing: 0.596154px;
   color: #17233d;
-  margin-top: 24px;
 }
 p {
   font-weight: 400;
@@ -61,7 +65,7 @@ p {
   color: #17233d;
   margin: 47px, 55px;
 }
-.button-learn-more {
+.link-learn-more {
   background: transparent;
   border: none;
   border-radius: 6px;
@@ -139,6 +143,7 @@ p {
     margin: 20px 15px;
     text-align: center;
   }
+  
 
   .button-sign-up,
   .button-learn-more {
