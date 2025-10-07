@@ -8,7 +8,7 @@
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -18,7 +18,7 @@ header {
   font-size: 14px;
   line-height: 21px;
   text-align: center;
-  letter-spacing: 0.875px;
+  letter-spacing: 5px;
   color: #17233d;
   margin-right: 32px;
   display: flex;
@@ -41,7 +41,6 @@ img {
   height: 100%;
   max-width: 600px;
   max-height: 400px;
-  margin-left: 42px;
   display: inline-block;
   margin-left: 85px;
 }
@@ -63,7 +62,7 @@ p {
   line-height: 33px;
   letter-spacing: 0.5px;
   color: #17233d;
-  margin: 47px, 55px;
+  margin: 47px 55px;
 }
 .link-learn-more {
   background: transparent;
@@ -74,7 +73,7 @@ p {
   cursor: pointer;
   font-weight: 500;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 24px;
   letter-spacing: 1px;
   color: #6fbf44;
   margin-top: 24px;
@@ -111,6 +110,7 @@ p {
   header {
     margin-left: 20px;
     margin-top: 20px;
+    flex-direction: column;
   }
 
   .link-menu {
@@ -146,7 +146,7 @@ p {
   
 
   .button-sign-up,
-  .button-learn-more {
+  .link-learn-more {
     width: 100%;
     margin: 20px 0;
   }
